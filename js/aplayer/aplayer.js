@@ -47,9 +47,6 @@ var anzhiyu = {
     musicSkipForward: function () {
         document.querySelector("#nav-music meting-js").aplayer.skipForward();
     },
-    musicBindEvent: function (){
-
-    },
 
     //获取音乐中的名称
     musicGetName: function () {
@@ -70,23 +67,7 @@ function musicBindEvent() {
     document.querySelector("#nav-music .aplayer-button").addEventListener("click", function () {
         anzhiyu.musicToggle(false);
     });
-
 }
-
-document.addEventListener("contextmenu", function (e) {
-    const target = e.target;
-
-    // 检测是否点击了音乐播放器区域
-    if (target.closest("#nav-music")) {
-        e.preventDefault(); // 阻止默认右键菜单
-
-        // 显示音乐控制菜单
-        document.querySelector("#menu-music").classList.remove("hide");
-    } else {
-        // 隐藏音乐控制菜单
-        document.querySelector("#menu-music").classList.add("hide");
-    }
-});
 
 
 
