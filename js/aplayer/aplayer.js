@@ -73,27 +73,12 @@ function musicBindEvent() {
 
 }
 
-// 为音乐播放器的进度条区域添加右键事件监听
-document.querySelector("#nav-music .aplayer-bar").addEventListener("mousedown", function (e) {
-    if (e.button === 2) { // 检测右键点击（button === 2 表示右键）
-        e.preventDefault(); // 阻止默认行为
-        console.log("右键点击了进度条，但不会影响进度");
-    }
-});
-
 document.addEventListener("contextmenu", function (e) {
     const target = e.target;
 
     // 检测是否点击了音乐播放器区域
     if (target.closest("#nav-music")) {
         e.preventDefault(); // 阻止默认右键菜单
-
-        // 检查是否点击了进度条
-        if (target.closest(".aplayer-bar")) {
-            console.log("右键点击了进度条，但不会改变进度");
-            // 如果是进度条区域，仅阻止默认行为，不执行任何进度操作
-            return;
-        }
 
         // 显示音乐控制菜单
         document.querySelector("#menu-music").classList.remove("hide");
