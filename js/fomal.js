@@ -3239,9 +3239,9 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lambda-image-1.pages.dev/wallhaven-x6rywv.jpg);
+    --default-bg: url(https://lambda-image-1.pages.dev/wallhaven-2ymlrx.png);
     --darkmode-bg:url(https://lambda-image-1.pages.dev/wallhaven-yxdrex.png);
-    --mobileday-bg: url(https://lambda-image-1.pages.dev/wallhaven-x6rywv.jpg);
+    --mobileday-bg: url(https://lambda-image-1.pages.dev/wallhaven-2ymlrx.png);
     --mobilenight-bg: url(https://lambda-image-1.pages.dev/wallhaven-yxdrex.png);
   }`;
 }
