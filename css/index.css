@@ -6655,12 +6655,12 @@ h1.post-title {
   height: 1.5em;
 }
 
-/* 滚动显示的标题居中 */
 center#name-container {
   position: absolute !important;
   top: 50%;  /* 垂直居中 */
   left: 50%;  /* 水平居中 */
   transform: translate(-50%, -50%) !important;  /* 使用translate来确保居中 */
+  white-space: nowrap;  /* 防止文本换行 */
 }
 @media screen and (max-width: 768px) {
   center#name-container {

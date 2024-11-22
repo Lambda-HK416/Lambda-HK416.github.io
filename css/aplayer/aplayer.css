@@ -22,7 +22,7 @@
     align-items: center;
     z-index: 9;
     position: fixed;
-    bottom: 50px;
+    bottom: 60px;
     left: 10px;
     cursor: pointer;
     transition: 0.5s;

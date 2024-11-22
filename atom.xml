@@ -56,9 +56,9 @@
     <category term="教程" scheme="https://lambda-hk416.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="Docker" scheme="https://lambda-hk416.github.io/tags/Docker/"/>
-    
     <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
+    
+    <category term="Docker" scheme="https://lambda-hk416.github.io/tags/Docker/"/>
     
   </entry>
   
