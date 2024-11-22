@@ -20,33 +20,6 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/tags/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://lambda-hk416.github.io/box/nav/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://lambda-hk416.github.io/life/movies/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://lambda-hk416.github.io/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -65,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/personal/bb/index.html</loc>
+    <loc>https://lambda-hk416.github.io/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -83,6 +56,24 @@
   </url>
   
   <url>
+    <loc>https://lambda-hk416.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/box/nav/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://lambda-hk416.github.io/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -92,7 +83,16 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/site/time/index.html</loc>
+    <loc>https://lambda-hk416.github.io/personal/bb/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/social/link/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/social/link/index.html</loc>
+    <loc>https://lambda-hk416.github.io/site/time/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -129,6 +129,15 @@
   
   <url>
     <loc>https://lambda-hk416.github.io/posts/2013454d.html</loc>
+    
+    <lastmod>2022-10-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/posts/6e4eaf21.html</loc>
     
     <lastmod>2022-10-23</lastmod>
     
@@ -168,10 +177,31 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://lambda-hk416.github.io/tags/Docker/</loc>
+    <lastmod>2024-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/tags/Linux/</loc>
+    <lastmod>2024-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://lambda-hk416.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
+    <lastmod>2024-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
