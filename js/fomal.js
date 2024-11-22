@@ -924,7 +924,7 @@ function popupMenu() {
     $('.rightMenu-group.hide').hide();
 
     const element = document.elementFromPoint(event.clientX, event.clientY);
-    alert(element.classList.value)
+    // alert(element.classList.value)
     if(element.classList.contains('music-hover')||
         element.classList.contains('aplayer-title')||
         element.classList.contains('aplayer-played')||
