@@ -1,0 +1,140 @@
+.contact-info{
+    position: fixed;
+    top: 22%;
+    z-index: 200;
+    left: -51px;
+    transition: 0.4s;
+}
+.contact-info:hover{
+    left: 0px;
+}
+.contact-info .option{
+    cursor: pointer;
+    position: relative;
+}
+
+.contact-info .option i{
+    display: block;
+    width: 50px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background: rgb(255, 255, 255);
+    color: #b9b9b9;
+    font-size: 20px;
+    transition: 0.4s;
+    border-radius: 0 10px 10px 0;
+}
+
+.contact-info .option:hover i{
+    color: #3498db;
+}
+.contact-info .text{
+    border-radius: 15px;
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    background: rgba(255,255,255,.85);
+    top: 0;
+    z-index: -1;
+    left: -136px;
+    color: rgb(0, 0, 0);
+    line-height: 60px;
+    text-align: center;
+    transition: 0.4s;
+}
+.contact-info .aplayertext{
+    transition: none!important;
+}
+.contact-info .option:hover .text{
+    left: 60px;
+}
+.contact-info .blok{
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    top: 0;
+    z-index: -1;
+    left: 0px;
+}
+.contact-info .bloktop{
+    position: absolute;
+    height: 75px;
+    width: 100px;
+    bottom: 0px;
+    z-index: -1;
+    left: 0px;
+}
+.contact-info .blokbottom{
+    position: absolute;
+    height: 75px;
+    width: 100px;
+    top: 0;
+    z-index: -1;
+    left: 0px;
+}
+.contact-info .option:hover .blok,.contact-info .option:hover .bloktop,.contact-info .option:hover .blokbottom{
+    left: 0px;
+}
+[data-theme=dark]
+.contact-info .option i{
+    background: rgb(22, 22, 22);
+    color: #b9b9b9;
+}
+[data-theme=dark]
+.contact-info .text{
+    background: rgba(23, 23, 23, 0.85);
+    color: rgba(255, 255, 255, 0.92);
+}
+@media screen and (max-width:1300px){
+    .contact-info{
+        display: none!important;
+    }
+}
+
+.contact-info .text .strip{
+    border-radius: 5px;
+    position: absolute;
+    height: 36px;
+    width: 5px;
+    background: rgba(20, 163, 230, 0.8);
+    top: 12px;
+    z-index: -1;
+    right: 4px;
+    transition: 0.4s;
+}
+.aplayertext .strip{
+    transition: none!important;
+}
+.contact-info .option:hover .aplayertext .strip{
+    background: transparent;
+}
+[data-theme=dark]
+.contact-info .option:hover i{
+    color: #3498db;
+}
+.contact-info .option .text .post-reward .tip-button__text{
+    margin: 25px!important;
+}
+.post-reward .reward-button .reward-main .reward-all{
+    border-radius: 12px!important;
+}
+.contact-info .option .text .post-reward .reward-button .reward-main .reward-all{
+    z-index: 999!important;
+}
+[data-theme="dark"]
+.contact-info .option .text .post-reward .tip-button{
+    border: solid 2px rgba(236, 233, 233, 0.8);
+    background: #043749d0;
+}
+
+/* 英语播放器设置 */
+.contact-info .option:hover .aplayertext{
+    left: 110px!important;
+    width: 370px!important;
+    background: transparent!important;
+}
+.contact-info .aplayertext .music-hover{
+    position: relative;
+    left: -60px!important;
+}
