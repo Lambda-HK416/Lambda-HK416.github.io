@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.wikunkun.asia/posts/20241127.html</loc>
+    <loc>https://www.wikunkun.asia/posts/20241127c.html</loc>
+    
+    <lastmod>2024-11-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wikunkun.asia/posts/20241127a.html</loc>
+    
+    <lastmod>2024-11-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wikunkun.asia/posts/20241127b.html</loc>
     
     <lastmod>2024-11-27</lastmod>
     
@@ -74,25 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.wikunkun.asia/box/animation/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.wikunkun.asia/tags/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wikunkun.asia/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -110,25 +110,25 @@
   </url>
   
   <url>
+    <loc>https://www.wikunkun.asia/box/animation/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wikunkun.asia/life/games/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wikunkun.asia/life/movies/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wikunkun.asia/personal/about/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wikunkun.asia/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -146,7 +146,25 @@
   </url>
   
   <url>
+    <loc>https://www.wikunkun.asia/personal/about/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wikunkun.asia/social/link/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wikunkun.asia/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -189,6 +207,13 @@
   </url>
   
   <url>
+    <loc>https://www.wikunkun.asia/tags/Docker/</loc>
+    <lastmod>2024-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wikunkun.asia/tags/Markdown/</loc>
     <lastmod>2024-11-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -202,17 +227,17 @@
     <priority>0.2</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://www.wikunkun.asia/tags/Docker/</loc>
+    <loc>https://www.wikunkun.asia/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://www.wikunkun.asia/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.wikunkun.asia/categories/%E6%95%99%E7%A8%8B/%E5%90%8E%E7%AB%AF/</loc>
     <lastmod>2024-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
