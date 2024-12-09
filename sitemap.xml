@@ -110,6 +110,15 @@
   </url>
   
   <url>
+    <loc>https://www.wikunkun.asia/box/animation/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.wikunkun.asia/tags/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -128,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://www.wikunkun.asia/box/animation/index.html</loc>
+    <loc>https://www.wikunkun.asia/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -137,16 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.wikunkun.asia/life/movies/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wikunkun.asia/personal/about/index.html</loc>
+    <loc>https://www.wikunkun.asia/personal/bb/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://www.wikunkun.asia/life/games/index.html</loc>
+    <loc>https://www.wikunkun.asia/personal/about/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://www.wikunkun.asia/personal/bb/index.html</loc>
+    <loc>https://www.wikunkun.asia/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -232,20 +232,6 @@
   </url>
   
   <url>
-    <loc>https://www.wikunkun.asia/tags/Markdown/</loc>
-    <lastmod>2024-12-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.wikunkun.asia/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2024-12-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.wikunkun.asia/tags/Linux/</loc>
     <lastmod>2024-12-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -254,6 +240,20 @@
   
   <url>
     <loc>https://www.wikunkun.asia/tags/Docker/</loc>
+    <lastmod>2024-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wikunkun.asia/tags/Markdown/</loc>
+    <lastmod>2024-12-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.wikunkun.asia/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
     <lastmod>2024-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
