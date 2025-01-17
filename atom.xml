@@ -140,9 +140,9 @@
     
     <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
     
-    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
-    
     <category term="远程开发" scheme="https://www.wikunkun.asia/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
     
     <category term="系统调用" scheme="https://www.wikunkun.asia/tags/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8/"/>
     
@@ -209,9 +209,9 @@
     
     <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
     
-    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
-    
     <category term="远程开发" scheme="https://www.wikunkun.asia/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
     
   </entry>
   
@@ -307,11 +307,11 @@
     <category term="Linux平台开发" scheme="https://www.wikunkun.asia/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
     
     
+    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
     
     <category term="Docker" scheme="https://www.wikunkun.asia/tags/Docker/"/>
-    
-    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -412,9 +412,9 @@
     <category term="虚拟化技术" scheme="https://www.wikunkun.asia/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
-    
     <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
     
     <category term="虚拟机" scheme="https://www.wikunkun.asia/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
@@ -441,11 +441,11 @@
     
     <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
     
+    <category term="工具安装" scheme="https://www.wikunkun.asia/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+    
     <category term="网络代理" scheme="https://www.wikunkun.asia/tags/%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86/"/>
     
     <category term="V2ray" scheme="https://www.wikunkun.asia/tags/V2ray/"/>
-    
-    <category term="工具安装" scheme="https://www.wikunkun.asia/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
