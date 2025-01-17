@@ -8,7 +8,7 @@
       <link href="/posts/241081b5.html"/>
       <url>/posts/241081b5.html</url>
       
-        <content type="html"><![CDATA[<h2 id="创建Github仓库">创建Github仓库</h2><p>登录<code>github</code>账号,然后创建仓库</p><p><img src="https://lambda-image-2.pages.dev/image-20250114202726724.png" alt="image-20250114202726724"></p><p>输入<strong>仓库名</strong>(可随意),选择<code>Public</code>,勾选<code>Add a README file</code>(最后勾选这个,不然等下你还要自己创建分支)</p><p><img src="https://lambda-image-2.pages.dev/image-20250114204937245.png" alt="image-20250114204937245"></p><h2 id="创建Token">创建Token</h2><p>现在仓库创建完毕了,当时我们现在用相关的软件还是无法操作我们刚才创建的仓库,因此我们需要创建个<code>Token</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203014968.png" alt="image-20250114203014968"></p><p>点击<code>Developer settings</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203249114.png" alt="image-20250114203249114"></p><p>选择<code>Tokens(classic)</code>,然后<code>Generate new token</code>,选择<code>Generate new token(classic)</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203440351.png" alt="image-20250114203440351"></p><p>输入<code>token</code>名称,设置<code>token</code>有效期,选择<code>No expiration</code>,在<code>Select scopes</code>中勾选<code>repo</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203604622.png" alt="image-20250114203604622"></p><p>记录生成的<code>token</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203710736.png" alt="image-20250114203710736"></p><h2 id="使用Cloudflare进行加速">使用<code>Cloudflare</code>进行加速</h2><p>现在github图床搭建完毕了,但是在国内访问的话速度会很慢,有可能还无法访问,因此我们要用一些手段来进行加速,把项目部署到<code>Cloudflare</code>中只是其中的一种方法,如果你有更好的方法的话,这部分可以跳过</p><p><img src="https://lambda-image-2.pages.dev/image-20250114204231646.png" alt="image-20250114204231646"></p><p>连接我们的<code>github</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114204302615.png" alt="image-20250114204302615"></p><p>登录后进入这个页面,如果没有我们刚刚创建的仓库的话,点击<code>Cloudflare Pages</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114204424957.png" alt="image-20250114204424957"></p><p>把我们刚刚创建的仓库添加进去</p><p><img src="https://lambda-image-2.pages.dev/image-20250114204507453.png" alt="image-20250114204507453"></p><p>设置完成后回到刚刚的页面,选择我们刚刚创建的仓库,点击保存并部署</p><p><img src="https://lambda-image-2.pages.dev/image-20250114205117414.png" alt="image-20250114205117414"></p><p>记住等下我们要使用的<code>域名</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114211956068.png" alt="image-20250114211956068"></p><h2 id="使用PicList上传图片">使用PicList上传图片</h2><p>先下载<a href="https://piclist.cn/">PicList</a></p><p>下载完成后运行<code>PicList</code>,点击图床,然后选择<code>Github</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114211715695.png" alt="image-20250114211715695"></p><p>添加新图床</p><p><img src="https://lambda-image-2.pages.dev/image-20250114211758706.png" alt="image-20250114211758706"></p><p>输入相关配置信息</p><p><img src="https://lambda-image-2.pages.dev/image-20250114212143176.png" alt="image-20250114212143176"></p><p>开始上传图片<img src="https://lambda-image-2.pages.dev/image-20250114212246760.png" alt="image-20250114212246760"></p><p>这是本文待会要上传的图片</p><details class="folding-tag" ><summary> 查看图片 </summary>              <div class='content'>              <p><img src="https://lambda-image-2.pages.dev/wallhaven-o5o285.jpg" alt=""></p>              </div>            </details><p>可以看到刚刚上传的图片,并且域名也是我们刚刚配置的,以后就可以用该链接访问我们上传的图片了</p><p><img src="https://lambda-image-2.pages.dev/image-20250114212803314.png" alt="image-20250114212803314"></p><h2 id="Typora中配置图片上传">Typora中配置图片上传</h2><p>下载<a href="https://typoraio.cn/">Typora</a></p><p>现在我们配置好了PicList,接下来就是把他与我们的<code>Typora</code>进行关联</p><p>打开偏好设置,选择上传服务</p><p><img src="https://lambda-image-2.pages.dev/image-20250114213133590.png" alt="image-20250114213133590"></p><p>配置完成后可以点击旁边的<code>验证图片上传选项</code>测试是否可以正常上传图片,如果可以正常上传,至此就全部结束了</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="创建Github仓库">创建Github仓库</h2><p>登录<code>github</code>账号,然后创建仓库</p><p><img src="https://lambda-image-2.pages.dev/image-20250114202726724.png" alt="image-20250114202726724"></p><p>输入<strong>仓库名</strong>(可随意),选择<code>Public</code>,勾选<code>Add a README file</code>(最后勾选这个,不然等下你还要自己创建分支)</p><p><img src="https://lambda-image-2.pages.dev/image-20250114204937245.png" alt="image-20250114204937245"></p><h2 id="创建Token">创建Token</h2><p>现在仓库创建完毕了,当时我们现在用相关的软件还是无法操作我们刚才创建的仓库,因此我们需要创建个<code>Token</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203014968.png" alt="image-20250114203014968"></p><p>点击<code>Developer settings</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203249114.png" alt="image-20250114203249114"></p><p>选择<code>Tokens(classic)</code>,然后<code>Generate new token</code>,选择<code>Generate new token(classic)</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203440351.png" alt="image-20250114203440351"></p><p>输入<code>token</code>名称,设置<code>token</code>有效期,选择<code>No expiration</code>,在<code>Select scopes</code>中勾选<code>repo</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203604622.png" alt="image-20250114203604622"></p><p>记录生成的<code>token</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114203710736.png" alt="image-20250114203710736"></p><h2 id="使用Cloudflare进行加速">使用<code>Cloudflare</code>进行加速</h2><p>现在github图床搭建完毕了,但是在国内访问的话速度会很慢,有可能还无法访问,因此我们要用一些手段来进行加速,把项目部署到<code>Cloudflare</code>中只是其中的一种方法,如果你有更好的方法的话,这部分可以跳过</p><p><img src="https://lambda-image-2.pages.dev/image-20250114204231646.png" alt="image-20250114204231646"></p><p>连接我们的<code>github</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114204302615.png" alt="image-20250114204302615"></p><p>登录后进入这个页面,如果没有我们刚刚创建的仓库的话,点击<code>Cloudflare Pages</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114204424957.png" alt="image-20250114204424957"></p><p>把我们刚刚创建的仓库添加进去</p><p><img src="https://lambda-image-2.pages.dev/image-20250114204507453.png" alt="image-20250114204507453"></p><p>设置完成后回到刚刚的页面,选择我们刚刚创建的仓库,点击保存并部署</p><p><img src="https://lambda-image-2.pages.dev/image-20250114205117414.png" alt="image-20250114205117414"></p><p>记住等下我们要使用的<code>域名</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114211956068.png" alt="image-20250114211956068"></p><h2 id="使用PicList上传图片">使用PicList上传图片</h2><p>先下载<a href="https://piclist.cn/">PicList</a></p><p>下载完成后运行<code>PicList</code>,点击图床,然后选择<code>Github</code></p><p><img src="https://lambda-image-2.pages.dev/image-20250114211715695.png" alt="image-20250114211715695"></p><p>添加新图床</p><p><img src="https://lambda-image-2.pages.dev/image-20250114211758706.png" alt="image-20250114211758706"></p><p>输入相关配置信息</p><p><img src="https://lambda-image-2.pages.dev/image-20250114212143176.png" alt="image-20250114212143176"></p><p>开始上传图片<img src="https://lambda-image-2.pages.dev/image-20250114212246760.png" alt="image-20250114212246760"></p><p>这是本文待会要上传的图片</p><details class="folding-tag" ><summary> 查看图片 </summary>              <div class='content'>              <p><img src="https://lambda-image-1.pages.dev/20250117155624667.webp" alt=""></p>              </div>            </details><p>可以看到刚刚上传的图片,并且域名也是我们刚刚配置的,以后就可以用该链接访问我们上传的图片了</p><p><img src="https://lambda-image-2.pages.dev/image-20250114212803314.png" alt="image-20250114212803314"></p><h2 id="Typora中配置图片上传">Typora中配置图片上传</h2><p>下载<a href="https://typoraio.cn/">Typora</a></p><p>现在我们配置好了PicList,接下来就是把他与我们的<code>Typora</code>进行关联</p><p>打开偏好设置,选择上传服务</p><p><img src="https://lambda-image-2.pages.dev/image-20250114213133590.png" alt="image-20250114213133590"></p><p>配置完成后可以点击旁边的<code>验证图片上传选项</code>测试是否可以正常上传图片,如果可以正常上传,至此就全部结束了</p>]]></content>
       
       
       <categories>
@@ -109,9 +109,9 @@
             
             <tag> Linux </tag>
             
-            <tag> 远程开发 </tag>
-            
             <tag> C/C++ </tag>
+            
+            <tag> 远程开发 </tag>
             
             <tag> 系统调用 </tag>
             
@@ -167,9 +167,9 @@
             
             <tag> Linux </tag>
             
-            <tag> 远程开发 </tag>
-            
             <tag> C/C++ </tag>
+            
+            <tag> 远程开发 </tag>
             
         </tags>
       
@@ -246,11 +246,11 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Linux </tag>
             
             <tag> Docker </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -329,9 +329,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 虚拟机 </tag>
             
@@ -362,11 +362,11 @@
             
             <tag> Linux </tag>
             
-            <tag> 工具安装 </tag>
-            
             <tag> 网络代理 </tag>
             
             <tag> V2ray </tag>
+            
+            <tag> 工具安装 </tag>
             
         </tags>
       
