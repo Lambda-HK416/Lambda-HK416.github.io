@@ -4,17 +4,23 @@
   
     
     <entry>
-      <title>加密的文章</title>
+      <title>加密内容</title>
       <link href="/posts/b6063e27.html"/>
       <url>/posts/b6063e27.html</url>
       
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="3545f7bd8574c418099600ccf382db1ad721e484fa4fb63dac3bc119e27efac8">c9de4bee17aa26c6c2e03012bd52bc6a00da370cd08ebf162ddd30e4b8ff7d09</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="eb4e30aa440b944eca0dd1f40bd65f84ef974dcdd54089ae1229d9737b6f08e5">d7e284ce31b69fc89742012cc772daee6d0df62fc70926dcc5a4fb75ca81a4f9</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-blink">      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
+      
+      <categories>
+          
+          <category> 加密内容 </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> 作为日记加密 </tag>
+            <tag> 加密文章 </tag>
             
         </tags>
       
@@ -265,11 +271,11 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Linux </tag>
             
             <tag> Docker </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -348,9 +354,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 虚拟机 </tag>
             
@@ -381,11 +387,11 @@
             
             <tag> Linux </tag>
             
-            <tag> 工具安装 </tag>
-            
             <tag> 网络代理 </tag>
             
             <tag> V2ray </tag>
+            
+            <tag> 工具安装 </tag>
             
         </tags>
       

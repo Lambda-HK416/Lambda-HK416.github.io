@@ -6,7 +6,7 @@
   <link href="https://www.wikunkun.asia/atom.xml" rel="self"/>
   
   <link href="https://www.wikunkun.asia/"/>
-  <updated>2025-02-13T11:54:44.437Z</updated>
+  <updated>2025-02-13T13:12:42.325Z</updated>
   <id>https://www.wikunkun.asia/</id>
   
   <author>
@@ -17,21 +17,23 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>加密的文章</title>
+    <title>加密内容</title>
     <link href="https://www.wikunkun.asia/posts/b6063e27.html"/>
     <id>https://www.wikunkun.asia/posts/b6063e27.html</id>
     <published>2025-02-13T11:51:51.000Z</published>
-    <updated>2025-02-13T11:54:44.437Z</updated>
+    <updated>2025-02-13T13:12:42.325Z</updated>
     
-    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="3545f7bd8574c418099600ccf382db1ad721e484fa4fb63dac3bc119e27efac8">c9de4bee17aa26c6c2e03012bd52bc6a00da370cd08ebf162ddd30e4b8ff7d09</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-    
-    
-    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="eb4e30aa440b944eca0dd1f40bd65f84ef974dcdd54089ae1229d9737b6f08e5">d7e284ce31b69fc89742012cc772daee6d0df62fc70926dcc5a4fb75ca81a4f9</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-blink">      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="您好, 这里需要密码.">您好, 这里需要密码.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
     
     
+    <summary type="html">加密内容,个人自用</summary>
     
     
-    <category term="作为日记加密" scheme="https://www.wikunkun.asia/tags/%E4%BD%9C%E4%B8%BA%E6%97%A5%E8%AE%B0%E5%8A%A0%E5%AF%86/"/>
+    
+    <category term="加密内容" scheme="https://www.wikunkun.asia/categories/%E5%8A%A0%E5%AF%86%E5%86%85%E5%AE%B9/"/>
+    
+    
+    <category term="加密文章" scheme="https://www.wikunkun.asia/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
@@ -326,11 +328,11 @@
     <category term="Linux平台开发" scheme="https://www.wikunkun.asia/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
     
     <category term="Docker" scheme="https://www.wikunkun.asia/tags/Docker/"/>
+    
+    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -431,9 +433,9 @@
     <category term="虚拟化技术" scheme="https://www.wikunkun.asia/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
+    
+    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="虚拟机" scheme="https://www.wikunkun.asia/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
@@ -460,11 +462,11 @@
     
     <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
     
-    <category term="工具安装" scheme="https://www.wikunkun.asia/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
-    
     <category term="网络代理" scheme="https://www.wikunkun.asia/tags/%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86/"/>
     
     <category term="V2ray" scheme="https://www.wikunkun.asia/tags/V2ray/"/>
+    
+    <category term="工具安装" scheme="https://www.wikunkun.asia/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
