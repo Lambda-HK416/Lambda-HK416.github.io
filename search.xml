@@ -74,9 +74,9 @@
       
         <tags>
             
-            <tag> C/C++ </tag>
-            
             <tag> CMake </tag>
+            
+            <tag> C/C++ </tag>
             
             <tag> 构建工具 </tag>
             
@@ -134,9 +134,9 @@
             
             <tag> Linux </tag>
             
-            <tag> 远程开发 </tag>
-            
             <tag> C/C++ </tag>
+            
+            <tag> 远程开发 </tag>
             
             <tag> 系统调用 </tag>
             
@@ -192,9 +192,9 @@
             
             <tag> Linux </tag>
             
-            <tag> 远程开发 </tag>
-            
             <tag> C/C++ </tag>
+            
+            <tag> 远程开发 </tag>
             
         </tags>
       
