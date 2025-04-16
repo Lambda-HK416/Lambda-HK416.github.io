@@ -327,11 +327,11 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Linux </tag>
             
             <tag> Docker </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -410,9 +410,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 虚拟机 </tag>
             
@@ -443,11 +443,11 @@
             
             <tag> Linux </tag>
             
-            <tag> 工具安装 </tag>
-            
             <tag> 网络代理 </tag>
             
             <tag> V2ray </tag>
+            
+            <tag> 工具安装 </tag>
             
         </tags>
       
