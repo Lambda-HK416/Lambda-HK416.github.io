@@ -255,9 +255,9 @@
             
             <tag> Linux </tag>
             
-            <tag> C/C++ </tag>
-            
             <tag> 远程开发 </tag>
+            
+            <tag> C/C++ </tag>
             
             <tag> 系统调用 </tag>
             
@@ -313,9 +313,9 @@
             
             <tag> Linux </tag>
             
-            <tag> C/C++ </tag>
-            
             <tag> 远程开发 </tag>
+            
+            <tag> C/C++ </tag>
             
         </tags>
       
@@ -508,11 +508,11 @@
             
             <tag> Linux </tag>
             
+            <tag> 工具安装 </tag>
+            
             <tag> 网络代理 </tag>
             
             <tag> V2ray </tag>
-            
-            <tag> 工具安装 </tag>
             
         </tags>
       
