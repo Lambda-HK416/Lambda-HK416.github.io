@@ -85,9 +85,9 @@
       
         <tags>
             
-            <tag> Python </tag>
-            
             <tag> Notebook </tag>
+            
+            <tag> Python </tag>
             
         </tags>
       
@@ -112,11 +112,11 @@
       
         <tags>
             
+            <tag> Python </tag>
+            
             <tag> Anaconda </tag>
             
             <tag> pip </tag>
-            
-            <tag> Python </tag>
             
         </tags>
       
@@ -255,9 +255,9 @@
             
             <tag> Linux </tag>
             
-            <tag> 远程开发 </tag>
-            
             <tag> C/C++ </tag>
+            
+            <tag> 远程开发 </tag>
             
             <tag> 系统调用 </tag>
             
@@ -313,9 +313,9 @@
             
             <tag> Linux </tag>
             
-            <tag> 远程开发 </tag>
-            
             <tag> C/C++ </tag>
+            
+            <tag> 远程开发 </tag>
             
         </tags>
       
@@ -392,11 +392,11 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Linux </tag>
             
             <tag> Docker </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -475,9 +475,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Linux </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 虚拟机 </tag>
             
@@ -508,11 +508,11 @@
             
             <tag> Linux </tag>
             
-            <tag> 工具安装 </tag>
-            
             <tag> 网络代理 </tag>
             
             <tag> V2ray </tag>
+            
+            <tag> 工具安装 </tag>
             
         </tags>
       
