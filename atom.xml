@@ -516,11 +516,11 @@
     <category term="Linux平台开发" scheme="https://lambda-hk416.github.io/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
     
     
+    <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
     <category term="Docker" scheme="https://lambda-hk416.github.io/tags/Docker/"/>
-    
-    <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -621,9 +621,9 @@
     <category term="虚拟化技术" scheme="https://lambda-hk416.github.io/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
-    
     <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
     <category term="虚拟机" scheme="https://lambda-hk416.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
