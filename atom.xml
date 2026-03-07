@@ -3,11 +3,11 @@
   <title>Lambda🍃</title>
   
   
-  <link href="https://www.wikunkun.asia/atom.xml" rel="self"/>
+  <link href="https://lambda-hk416.github.io/atom.xml" rel="self"/>
   
-  <link href="https://www.wikunkun.asia/"/>
-  <updated>2025-06-04T05:09:44.009Z</updated>
-  <id>https://www.wikunkun.asia/</id>
+  <link href="https://lambda-hk416.github.io/"/>
+  <updated>2025-06-04T09:22:14.610Z</updated>
+  <id>https://lambda-hk416.github.io/</id>
   
   <author>
     <name>Lambda</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>ShellClash的配置和使用</title>
-    <link href="https://www.wikunkun.asia/posts/121ccdea.html"/>
-    <id>https://www.wikunkun.asia/posts/121ccdea.html</id>
+    <link href="https://lambda-hk416.github.io/posts/121ccdea.html"/>
+    <id>https://lambda-hk416.github.io/posts/121ccdea.html</id>
     <published>2025-06-04T02:12:15.000Z</published>
-    <updated>2025-06-04T05:09:44.009Z</updated>
+    <updated>2025-06-04T09:22:14.610Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="安装ShellClash">安装ShellClash</h2><p>访问<a href="https://github.com/juewuy/ShellCrash">ShellClash</a>的Github地址</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604101407688.png" alt="image-20250604101407688"></p><p>根据文档内容进行安装</p><h3 id="标准Linux设备安装">标准Linux设备安装</h3><p>执行以下安装命令</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> -i <span class="comment">#切换到root用户，如果需要密码，请输入密码</span></span><br><span class="line">bash <span class="comment">#如已处于bash环境可跳过</span></span><br><span class="line"><span class="built_in">export</span> url=<span class="string">&#x27;https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master&#x27;</span> &amp;&amp; wget -q --no-check-certificate -O /tmp/install.sh <span class="variable">$url</span>/install.sh  &amp;&amp; bash /tmp/install.sh &amp;&amp; <span class="built_in">source</span> /etc/profile &amp;&gt; /dev/null</span><br></pre></td></tr></table></figure><h3 id="虚拟机-Docker环境安装">虚拟机/Docker环境安装</h3><p>执行以下安装命令</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#注意，以下命令请分步执行！</span></span><br><span class="line"><span class="comment">#Docker一键启动Alpine镜像</span></span><br><span class="line">docker run -d --name ShellCrash alpine <span class="built_in">sleep</span> infinity</span><br><span class="line"><span class="comment">#进入容器内sh环境</span></span><br><span class="line">docker <span class="built_in">exec</span> -it ShellCrash sh</span><br><span class="line"><span class="comment">#安装必要依赖</span></span><br><span class="line">apk add curl </span><br><span class="line">apk add nftables</span><br><span class="line"><span class="comment">#执行安装命令</span></span><br><span class="line"><span class="built_in">export</span> url=<span class="string">&#x27;https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master&#x27;</span> &amp;&amp; sh -c <span class="string">&quot;<span class="subst">$(curl -kfsSl $url/install.sh)</span>&quot;</span> &amp;&amp; <span class="built_in">source</span> /etc/profile &amp;&gt; /dev/null</span><br></pre></td></tr></table></figure><h2 id="导入订阅和启动">导入订阅和启动</h2><p>转换订阅链接为<code>Clash</code>格式,访问网站<a href="https://clash.rokeyyan.com/">在线订阅转换</a>,选择生成类型为<code>Clash</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604110633319.png" alt="image-20250604110633319"></p><p>启动<code>ShellClash</code></p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">crash <span class="comment">#进入对话</span></span><br><span class="line">crash -h <span class="comment">#帮助列表</span></span><br></pre></td></tr></table></figure><p>按照提示输入<code>6</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604101948029.png" alt="image-20250604101948029"></p><p>按照提示输入<code>2</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604110709985.png" alt="image-20250604110709985"></p><p>输入订阅链接</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604110827426.png" alt="image-20250604110827426"></p><h2 id="设置开机自启">设置开机自启</h2><p>按照提示输入<code>4</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604102530528.png" alt="image-20250604102530528"></p><p>按照提示输入<code>1</code>设置开机自启</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604102611616.png" alt="image-20250604102611616"></p><p>安装<code>Dashboard</code>面板</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604111134518.png" alt="image-20250604111134518"></p><p>选择自己喜欢的(博主这里安装的为<code>2</code>)</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604111213810.png" alt="image-20250604111213810"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="安装ShellClash">安装ShellClash</h2><p>访问<a href="https://github.com/juewuy/ShellCrash">ShellClash</a>的Github地址</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604101407688.png" alt="image-20250604101407688"></p><p>根据文档内容进行安装</p><h3 id="标准Linux设备安装">标准Linux设备安装</h3><p>执行以下安装命令</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> -i <span class="comment">#切换到root用户，如果需要密码，请输入密码</span></span><br><span class="line">bash <span class="comment">#如已处于bash环境可跳过</span></span><br><span class="line"><span class="built_in">export</span> url=<span class="string">&#x27;https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master&#x27;</span> &amp;&amp; wget -q --no-check-certificate -O /tmp/install.sh <span class="variable">$url</span>/install.sh  &amp;&amp; bash /tmp/install.sh &amp;&amp; <span class="built_in">source</span> /etc/profile &amp;&gt; /dev/null</span><br></pre></td></tr></table></figure><h3 id="Docker环境安装">Docker环境安装</h3><p>执行以下安装命令</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#注意，以下命令请分步执行！</span></span><br><span class="line"><span class="comment">#Docker一键启动Alpine镜像</span></span><br><span class="line">docker run -d --name ShellCrash alpine <span class="built_in">sleep</span> infinity</span><br><span class="line"><span class="comment">#进入容器内sh环境</span></span><br><span class="line">docker <span class="built_in">exec</span> -it ShellCrash sh</span><br><span class="line"><span class="comment">#安装必要依赖</span></span><br><span class="line">apk add curl </span><br><span class="line">apk add nftables</span><br><span class="line"><span class="comment">#执行安装命令</span></span><br><span class="line"><span class="built_in">export</span> url=<span class="string">&#x27;https://fastly.jsdelivr.net/gh/juewuy/ShellCrash@master&#x27;</span> &amp;&amp; sh -c <span class="string">&quot;<span class="subst">$(curl -kfsSl $url/install.sh)</span>&quot;</span> &amp;&amp; <span class="built_in">source</span> /etc/profile &amp;&gt; /dev/null</span><br></pre></td></tr></table></figure><p>首次启动输入<code>2</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604165424102.png" alt="image-20250604165424102"></p><p>然后开启<code>Dashboard</code>(以下信息可以随意shur)</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604165513811.png" alt="image-20250604165513811"></p><h2 id="导入订阅和启动">导入订阅和启动</h2><p>启动<code>ShellClash</code></p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">crash <span class="comment">#进入对话</span></span><br><span class="line">crash -h <span class="comment">#帮助列表</span></span><br></pre></td></tr></table></figure><p>按照提示输入<code>6</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604101948029.png" alt="image-20250604101948029"></p><p>转换订阅链接,访问<a href="https://clash.rokeyyan.com/">在线订阅转换</a></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604165927368.png" alt="image-20250604165927368"></p><p>按照提示输入<code>2</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604110709985.png" alt="image-20250604110709985"></p><p>输入订阅链接</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604110827426.png" alt="image-20250604110827426"></p><h2 id="设置开机自启">设置开机自启</h2><p>按照提示输入<code>4</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604102530528.png" alt="image-20250604102530528"></p><p>按照提示输入<code>1</code>设置开机自启</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604102611616.png" alt="image-20250604102611616"></p><p>安装<code>Dashboard</code>面板</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604111134518.png" alt="image-20250604111134518"></p><p>选择自己喜欢的(博主这里安装的为<code>2</code>)</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604111213810.png" alt="image-20250604111213810"></p><h2 id="安装DashBoard">安装<code>DashBoard</code></h2><p>输入<code>9</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604170302652.png" alt="image-20250604170302652"></p><p>输入<code>4</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604170359855.png" alt="image-20250604170359855"></p><p>然后选择安装自己喜欢的面板</p><h2 id="访问DashBoard">访问<code>DashBoard</code></h2><p>输入<code>http://公网ip地址:9999/ui/</code>访问,然后连接<code>Clash</code></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604170721478.png" alt="image-20250604170721478"></p><p>上面的端口和秘钥要与你<code>config.yaml</code>中的<code>external-controller</code>和<code>secret</code>保持一致</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250604171018948.png" alt="image-20250604171018948"></p>]]></content>
     
     
       
@@ -43,8 +43,8 @@
   
   <entry>
     <title>HumanFallDetection项目运行</title>
-    <link href="https://www.wikunkun.asia/posts/d74f773c.html"/>
-    <id>https://www.wikunkun.asia/posts/d74f773c.html</id>
+    <link href="https://lambda-hk416.github.io/posts/d74f773c.html"/>
+    <id>https://lambda-hk416.github.io/posts/d74f773c.html</id>
     <published>2025-05-07T13:43:26.000Z</published>
     <updated>2025-06-04T05:09:44.007Z</updated>
     
@@ -67,8 +67,8 @@
   
   <entry>
     <title>insightface环境配置</title>
-    <link href="https://www.wikunkun.asia/posts/ac8465fc.html"/>
-    <id>https://www.wikunkun.asia/posts/ac8465fc.html</id>
+    <link href="https://lambda-hk416.github.io/posts/ac8465fc.html"/>
+    <id>https://lambda-hk416.github.io/posts/ac8465fc.html</id>
     <published>2025-04-28T11:32:24.000Z</published>
     <updated>2025-05-02T10:12:39.358Z</updated>
     
@@ -92,8 +92,8 @@
   
   <entry>
     <title>深度学习环境搭建</title>
-    <link href="https://www.wikunkun.asia/posts/d7842877.html"/>
-    <id>https://www.wikunkun.asia/posts/d7842877.html</id>
+    <link href="https://lambda-hk416.github.io/posts/d7842877.html"/>
+    <id>https://lambda-hk416.github.io/posts/d7842877.html</id>
     <published>2025-04-28T07:47:21.000Z</published>
     <updated>2025-05-02T10:12:39.361Z</updated>
     
@@ -117,10 +117,10 @@
   
   <entry>
     <title>PyTorch安装</title>
-    <link href="https://www.wikunkun.asia/posts/c9383eae.html"/>
-    <id>https://www.wikunkun.asia/posts/c9383eae.html</id>
+    <link href="https://lambda-hk416.github.io/posts/c9383eae.html"/>
+    <id>https://lambda-hk416.github.io/posts/c9383eae.html</id>
     <published>2025-04-27T12:58:31.000Z</published>
-    <updated>2025-05-12T08:49:17.927Z</updated>
+    <updated>2025-06-29T07:51:54.438Z</updated>
     
     <content type="html"><![CDATA[<h2 id="安装">安装</h2><p><a href="https://pytorch.org/">PyTorch</a></p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250427210127133.png" alt="image-20250427210127133"></p><p>查看</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250427210157553.png" alt="image-20250427210157553"></p><p>查看</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250427210314766.png" alt="image-20250427210314766"></p><p>查看</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250427210336566.png" alt="image-20250427210336566"></p><p>cuda版本要小于你显卡所支持的</p><p><img src="C:/Users/Administrator/AppData/Roaming/Typora/typora-user-images/image-20250427210500696.png" alt="image-20250427210500696"></p>]]></content>
     
@@ -142,8 +142,8 @@
   
   <entry>
     <title>Notebook配置</title>
-    <link href="https://www.wikunkun.asia/posts/39b1e76d.html"/>
-    <id>https://www.wikunkun.asia/posts/39b1e76d.html</id>
+    <link href="https://lambda-hk416.github.io/posts/39b1e76d.html"/>
+    <id>https://lambda-hk416.github.io/posts/39b1e76d.html</id>
     <published>2025-04-06T08:36:06.000Z</published>
     <updated>2025-04-14T09:05:46.408Z</updated>
     
@@ -162,19 +162,19 @@
     
     
     
-    <category term="开发环境搭建" scheme="https://www.wikunkun.asia/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <category term="开发环境搭建" scheme="https://lambda-hk416.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="Python" scheme="https://www.wikunkun.asia/tags/Python/"/>
+    <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
     
-    <category term="Notebook" scheme="https://www.wikunkun.asia/tags/Notebook/"/>
+    <category term="Notebook" scheme="https://lambda-hk416.github.io/tags/Notebook/"/>
     
   </entry>
   
   <entry>
     <title>Anaconda安装教程</title>
-    <link href="https://www.wikunkun.asia/posts/692adf87.html"/>
-    <id>https://www.wikunkun.asia/posts/692adf87.html</id>
+    <link href="https://lambda-hk416.github.io/posts/692adf87.html"/>
+    <id>https://lambda-hk416.github.io/posts/692adf87.html</id>
     <published>2025-04-06T07:06:20.000Z</published>
     <updated>2025-05-07T02:14:49.577Z</updated>
     
@@ -193,21 +193,21 @@
     
     
     
-    <category term="开发环境搭建" scheme="https://www.wikunkun.asia/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <category term="开发环境搭建" scheme="https://lambda-hk416.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="Anaconda" scheme="https://www.wikunkun.asia/tags/Anaconda/"/>
+    <category term="Anaconda" scheme="https://lambda-hk416.github.io/tags/Anaconda/"/>
     
-    <category term="pip" scheme="https://www.wikunkun.asia/tags/pip/"/>
+    <category term="pip" scheme="https://lambda-hk416.github.io/tags/pip/"/>
     
-    <category term="Python" scheme="https://www.wikunkun.asia/tags/Python/"/>
+    <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>加密内容</title>
-    <link href="https://www.wikunkun.asia/posts/b6063e27.html"/>
-    <id>https://www.wikunkun.asia/posts/b6063e27.html</id>
+    <link href="https://lambda-hk416.github.io/posts/b6063e27.html"/>
+    <id>https://lambda-hk416.github.io/posts/b6063e27.html</id>
     <published>2025-02-13T11:51:51.000Z</published>
     <updated>2025-02-13T14:33:43.648Z</updated>
     
@@ -218,17 +218,17 @@
     
     
     
-    <category term="加密内容" scheme="https://www.wikunkun.asia/categories/%E5%8A%A0%E5%AF%86%E5%86%85%E5%AE%B9/"/>
+    <category term="加密内容" scheme="https://lambda-hk416.github.io/categories/%E5%8A%A0%E5%AF%86%E5%86%85%E5%AE%B9/"/>
     
     
-    <category term="加密文章" scheme="https://www.wikunkun.asia/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/"/>
+    <category term="加密文章" scheme="https://lambda-hk416.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/"/>
     
   </entry>
   
   <entry>
     <title>Github图床搭建</title>
-    <link href="https://www.wikunkun.asia/posts/241081b5.html"/>
-    <id>https://www.wikunkun.asia/posts/241081b5.html</id>
+    <link href="https://lambda-hk416.github.io/posts/241081b5.html"/>
+    <id>https://lambda-hk416.github.io/posts/241081b5.html</id>
     <published>2025-01-14T12:26:02.000Z</published>
     <updated>2025-02-13T12:53:01.882Z</updated>
     
@@ -247,21 +247,21 @@
     
     
     
-    <category term="工具使用" scheme="https://www.wikunkun.asia/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
+    <category term="工具使用" scheme="https://lambda-hk416.github.io/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/"/>
     
     
-    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="GitHub" scheme="https://www.wikunkun.asia/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://lambda-hk416.github.io/tags/GitHub/"/>
     
-    <category term="图床" scheme="https://www.wikunkun.asia/tags/%E5%9B%BE%E5%BA%8A/"/>
+    <category term="图床" scheme="https://lambda-hk416.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
   <entry>
     <title>CMake添加本地库的方法</title>
-    <link href="https://www.wikunkun.asia/posts/9c7cff54.html"/>
-    <id>https://www.wikunkun.asia/posts/9c7cff54.html</id>
+    <link href="https://lambda-hk416.github.io/posts/9c7cff54.html"/>
+    <id>https://lambda-hk416.github.io/posts/9c7cff54.html</id>
     <published>2025-01-14T05:40:31.000Z</published>
     <updated>2025-02-13T10:39:02.422Z</updated>
     
@@ -280,23 +280,23 @@
     
     
     
-    <category term="CMake 教程" scheme="https://www.wikunkun.asia/categories/CMake-%E6%95%99%E7%A8%8B/"/>
+    <category term="CMake 教程" scheme="https://lambda-hk416.github.io/categories/CMake-%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
+    <category term="C/C++" scheme="https://lambda-hk416.github.io/tags/C-C/"/>
     
-    <category term="CMake" scheme="https://www.wikunkun.asia/tags/CMake/"/>
+    <category term="CMake" scheme="https://lambda-hk416.github.io/tags/CMake/"/>
     
-    <category term="构建工具" scheme="https://www.wikunkun.asia/tags/%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/"/>
+    <category term="构建工具" scheme="https://lambda-hk416.github.io/tags/%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/"/>
     
-    <category term="本地库配置" scheme="https://www.wikunkun.asia/tags/%E6%9C%AC%E5%9C%B0%E5%BA%93%E9%85%8D%E7%BD%AE/"/>
+    <category term="本地库配置" scheme="https://lambda-hk416.github.io/tags/%E6%9C%AC%E5%9C%B0%E5%BA%93%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
   <entry>
     <title>Linux上安装conan 并且与CLion与cmake结合使用</title>
-    <link href="https://www.wikunkun.asia/posts/c5c01ec0.html"/>
-    <id>https://www.wikunkun.asia/posts/c5c01ec0.html</id>
+    <link href="https://lambda-hk416.github.io/posts/c5c01ec0.html"/>
+    <id>https://lambda-hk416.github.io/posts/c5c01ec0.html</id>
     <published>2025-01-13T09:14:19.000Z</published>
     <updated>2025-02-13T10:39:02.420Z</updated>
     
@@ -315,19 +315,19 @@
     
     
     
-    <category term="Linux平台开发" scheme="https://www.wikunkun.asia/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
+    <category term="Linux平台开发" scheme="https://lambda-hk416.github.io/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
+    <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
-    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
+    <category term="C/C++" scheme="https://lambda-hk416.github.io/tags/C-C/"/>
     
   </entry>
   
   <entry>
     <title>Linux系统编程学习</title>
-    <link href="https://www.wikunkun.asia/posts/115b96c9.html"/>
-    <id>https://www.wikunkun.asia/posts/115b96c9.html</id>
+    <link href="https://lambda-hk416.github.io/posts/115b96c9.html"/>
+    <id>https://lambda-hk416.github.io/posts/115b96c9.html</id>
     <published>2025-01-12T19:27:14.000Z</published>
     <updated>2025-02-13T10:47:20.313Z</updated>
     
@@ -344,23 +344,23 @@
     
     
     
-    <category term="操作系统" scheme="https://www.wikunkun.asia/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    <category term="操作系统" scheme="https://lambda-hk416.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
     
     
-    <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
+    <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
-    <category term="远程开发" scheme="https://www.wikunkun.asia/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    <category term="远程开发" scheme="https://lambda-hk416.github.io/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
     
-    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
+    <category term="C/C++" scheme="https://lambda-hk416.github.io/tags/C-C/"/>
     
-    <category term="系统调用" scheme="https://www.wikunkun.asia/tags/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8/"/>
+    <category term="系统调用" scheme="https://lambda-hk416.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8/"/>
     
   </entry>
   
   <entry>
     <title>Linux上的vcpkg安装</title>
-    <link href="https://www.wikunkun.asia/posts/2338738d.html"/>
-    <id>https://www.wikunkun.asia/posts/2338738d.html</id>
+    <link href="https://lambda-hk416.github.io/posts/2338738d.html"/>
+    <id>https://lambda-hk416.github.io/posts/2338738d.html</id>
     <published>2025-01-12T08:06:38.000Z</published>
     <updated>2025-02-13T10:39:02.420Z</updated>
     
@@ -379,19 +379,19 @@
     
     
     
-    <category term="Linux平台开发" scheme="https://www.wikunkun.asia/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
+    <category term="Linux平台开发" scheme="https://lambda-hk416.github.io/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
+    <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
-    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
+    <category term="C/C++" scheme="https://lambda-hk416.github.io/tags/C-C/"/>
     
   </entry>
   
   <entry>
     <title>VSCode连接Linux服务器进行远程C++开发</title>
-    <link href="https://www.wikunkun.asia/posts/18ae5e5d.html"/>
-    <id>https://www.wikunkun.asia/posts/18ae5e5d.html</id>
+    <link href="https://lambda-hk416.github.io/posts/18ae5e5d.html"/>
+    <id>https://lambda-hk416.github.io/posts/18ae5e5d.html</id>
     <published>2025-01-07T03:21:01.000Z</published>
     <updated>2025-04-27T09:05:24.469Z</updated>
     
@@ -413,21 +413,21 @@
     
     
     
-    <category term="Linux平台开发" scheme="https://www.wikunkun.asia/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
+    <category term="Linux平台开发" scheme="https://lambda-hk416.github.io/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
+    <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
-    <category term="远程开发" scheme="https://www.wikunkun.asia/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
+    <category term="远程开发" scheme="https://lambda-hk416.github.io/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
     
-    <category term="C/C++" scheme="https://www.wikunkun.asia/tags/C-C/"/>
+    <category term="C/C++" scheme="https://lambda-hk416.github.io/tags/C-C/"/>
     
   </entry>
   
   <entry>
     <title>SpringBoot中拦截请求的方式</title>
-    <link href="https://www.wikunkun.asia/posts/e02212fc.html"/>
-    <id>https://www.wikunkun.asia/posts/e02212fc.html</id>
+    <link href="https://lambda-hk416.github.io/posts/e02212fc.html"/>
+    <id>https://lambda-hk416.github.io/posts/e02212fc.html</id>
     <published>2025-01-05T03:08:46.000Z</published>
     <updated>2025-02-13T10:39:02.418Z</updated>
     
@@ -448,19 +448,19 @@
     
     
     
-    <category term="后端开发" scheme="https://www.wikunkun.asia/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://lambda-hk416.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="Java" scheme="https://www.wikunkun.asia/tags/Java/"/>
+    <category term="Java" scheme="https://lambda-hk416.github.io/tags/Java/"/>
     
-    <category term="SpringBoot" scheme="https://www.wikunkun.asia/tags/SpringBoot/"/>
+    <category term="SpringBoot" scheme="https://lambda-hk416.github.io/tags/SpringBoot/"/>
     
   </entry>
   
   <entry>
     <title>宝可梦道具列表</title>
-    <link href="https://www.wikunkun.asia/posts/85880b56.html"/>
-    <id>https://www.wikunkun.asia/posts/85880b56.html</id>
+    <link href="https://lambda-hk416.github.io/posts/85880b56.html"/>
+    <id>https://lambda-hk416.github.io/posts/85880b56.html</id>
     <published>2024-12-22T14:22:28.000Z</published>
     <updated>2024-12-23T03:45:40.964Z</updated>
     
@@ -483,17 +483,17 @@
     
     
     
-    <category term="游戏" scheme="https://www.wikunkun.asia/categories/%E6%B8%B8%E6%88%8F/"/>
+    <category term="游戏" scheme="https://lambda-hk416.github.io/categories/%E6%B8%B8%E6%88%8F/"/>
     
     
-    <category term="宝可梦" scheme="https://www.wikunkun.asia/tags/%E5%AE%9D%E5%8F%AF%E6%A2%A6/"/>
+    <category term="宝可梦" scheme="https://lambda-hk416.github.io/tags/%E5%AE%9D%E5%8F%AF%E6%A2%A6/"/>
     
   </entry>
   
   <entry>
     <title>安装Docker</title>
-    <link href="https://www.wikunkun.asia/posts/29c15ce3.html"/>
-    <id>https://www.wikunkun.asia/posts/29c15ce3.html</id>
+    <link href="https://lambda-hk416.github.io/posts/29c15ce3.html"/>
+    <id>https://lambda-hk416.github.io/posts/29c15ce3.html</id>
     <published>2024-12-19T02:06:06.000Z</published>
     <updated>2025-05-02T10:12:11.075Z</updated>
     
@@ -513,21 +513,21 @@
     
     
     
-    <category term="Linux平台开发" scheme="https://www.wikunkun.asia/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
+    <category term="Linux平台开发" scheme="https://lambda-hk416.github.io/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
-    <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
+    <category term="Docker" scheme="https://lambda-hk416.github.io/tags/Docker/"/>
     
-    <category term="Docker" scheme="https://www.wikunkun.asia/tags/Docker/"/>
+    <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>搭建QQ机器人</title>
-    <link href="https://www.wikunkun.asia/posts/a1ff416d.html"/>
-    <id>https://www.wikunkun.asia/posts/a1ff416d.html</id>
+    <link href="https://lambda-hk416.github.io/posts/a1ff416d.html"/>
+    <id>https://lambda-hk416.github.io/posts/a1ff416d.html</id>
     <published>2024-12-19T02:03:56.000Z</published>
     <updated>2025-02-13T10:39:02.417Z</updated>
     
@@ -548,17 +548,17 @@
     
     
     
-    <category term="机器人" scheme="https://www.wikunkun.asia/categories/%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
+    <category term="机器人" scheme="https://lambda-hk416.github.io/categories/%E6%9C%BA%E5%99%A8%E4%BA%BA/"/>
     
     
-    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Netty实现WebSocket</title>
-    <link href="https://www.wikunkun.asia/posts/437d5a1e.html"/>
-    <id>https://www.wikunkun.asia/posts/437d5a1e.html</id>
+    <link href="https://lambda-hk416.github.io/posts/437d5a1e.html"/>
+    <id>https://lambda-hk416.github.io/posts/437d5a1e.html</id>
     <published>2024-12-19T02:01:08.000Z</published>
     <updated>2025-02-13T10:39:02.414Z</updated>
     
@@ -578,21 +578,21 @@
     
     
     
-    <category term="后端开发" scheme="https://www.wikunkun.asia/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    <category term="后端开发" scheme="https://lambda-hk416.github.io/categories/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="Java" scheme="https://www.wikunkun.asia/tags/Java/"/>
+    <category term="Java" scheme="https://lambda-hk416.github.io/tags/Java/"/>
     
-    <category term="Netty" scheme="https://www.wikunkun.asia/tags/Netty/"/>
+    <category term="Netty" scheme="https://lambda-hk416.github.io/tags/Netty/"/>
     
-    <category term="SpringBoot" scheme="https://www.wikunkun.asia/tags/SpringBoot/"/>
+    <category term="SpringBoot" scheme="https://lambda-hk416.github.io/tags/SpringBoot/"/>
     
   </entry>
   
   <entry>
     <title>安装Linux虚拟机</title>
-    <link href="https://www.wikunkun.asia/posts/25452eac.html"/>
-    <id>https://www.wikunkun.asia/posts/25452eac.html</id>
+    <link href="https://lambda-hk416.github.io/posts/25452eac.html"/>
+    <id>https://lambda-hk416.github.io/posts/25452eac.html</id>
     <published>2024-12-19T01:59:38.000Z</published>
     <updated>2025-02-13T10:39:02.417Z</updated>
     
@@ -618,16 +618,16 @@
     
     
     
-    <category term="虚拟化技术" scheme="https://www.wikunkun.asia/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF/"/>
+    <category term="虚拟化技术" scheme="https://lambda-hk416.github.io/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF/"/>
     
     
-    <category term="教程" scheme="https://www.wikunkun.asia/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
-    <category term="Linux" scheme="https://www.wikunkun.asia/tags/Linux/"/>
+    <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="虚拟机" scheme="https://www.wikunkun.asia/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="虚拟机" scheme="https://lambda-hk416.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
-    <category term="VMware" scheme="https://www.wikunkun.asia/tags/VMware/"/>
+    <category term="VMware" scheme="https://lambda-hk416.github.io/tags/VMware/"/>
     
   </entry>
   
