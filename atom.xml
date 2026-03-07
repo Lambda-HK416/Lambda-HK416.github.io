@@ -165,9 +165,9 @@
     <category term="开发环境搭建" scheme="https://lambda-hk416.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="Notebook" scheme="https://lambda-hk416.github.io/tags/Notebook/"/>
-    
     <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
+    
+    <category term="Notebook" scheme="https://lambda-hk416.github.io/tags/Notebook/"/>
     
   </entry>
   
@@ -196,11 +196,11 @@
     <category term="开发环境搭建" scheme="https://lambda-hk416.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
-    
     <category term="Anaconda" scheme="https://lambda-hk416.github.io/tags/Anaconda/"/>
     
     <category term="pip" scheme="https://lambda-hk416.github.io/tags/pip/"/>
+    
+    <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
     
   </entry>
   
