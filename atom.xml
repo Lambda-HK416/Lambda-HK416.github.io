@@ -6,7 +6,7 @@
   <link href="https://lambda-hk416.github.io/atom.xml" rel="self"/>
   
   <link href="https://lambda-hk416.github.io/"/>
-  <updated>2026-03-08T06:33:07.157Z</updated>
+  <updated>2026-03-08T16:52:19.252Z</updated>
   <id>https://lambda-hk416.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://lambda-hk416.github.io/posts/35c3053b.html"/>
     <id>https://lambda-hk416.github.io/posts/35c3053b.html</id>
     <published>2026-03-08T04:41:09.000Z</published>
-    <updated>2026-03-08T06:33:07.157Z</updated>
+    <updated>2026-03-08T16:52:19.252Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="安装manga-translator-ui">安装manga-translator-ui</h2><p>网页地址<a href="https://github.com/hgmzhn/manga-translator-ui">manga-translator-ui</a></p><p><img src="https://lambda-image-1.pages.dev/20260308125141716.webp" alt="20260308125141716.webp"></p><p>进入网页后，按照快速开始的安装方式，使用<code>安装脚本</code>安装即可</p><p><img src="https://lambda-image-1.pages.dev/20260308141811301.webp" alt="image-20260308131314154"></p><div class="tip "><p>按照其教程安装即可</p></div><p>在安装完成后点击<code>步骤2-启动Qt界面.bat</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811302.webp" alt="image-20260308131918265"></p><p>之后选择对应的翻译器</p><p><img src="https://lambda-image-1.pages.dev/20260308141811303.webp" alt="image-20260308131959482"></p><div class="tip "><p>博主这里是穷比，所以使用Sakura</p></div><h2 id="安装SakuraLLM">安装SakuraLLM</h2><p>网页地址<a href="https://github.com/SakuraLLM/SakuraLLM">SakuraLLM</a></p><p><img src="https://lambda-image-1.pages.dev/20260308132246594.webp" alt="20260308132246594.webp"></p><p>根据Wiki上的教程进行安装</p><p><img src="https://lambda-image-1.pages.dev/20260308141811304.webp" alt="image-20260308132345927"></p><p>根据自己的情况选择</p><p><img src="https://lambda-image-1.pages.dev/20260308141811305.webp" alt="image-20260308132624157"></p><div class="tip "><p>博主这里选择使用Sakura启动器GUI</p></div><p>网页地址<a href="https://github.com/PiDanShouRouZhouXD/Sakura_Launcher_GUI">Sakura_Launcher_GUI</a></p><p><img src="https://lambda-image-1.pages.dev/20260308141811306.webp" alt="image-20260308132742372"></p><p>点击<code>Releases</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811307.webp" alt="image-20260308132907358"></p><p>下载对应的<code>exe</code>文件即可</p><p><img src="https://lambda-image-1.pages.dev/20260308141811308.webp" alt="image-20260308133026180"></p><p>回到SakuraLLM页面，往下翻找到<code>显卡需求与显存需求</code>页面,然后根据自己的电脑硬件选择对应的模型</p><div class="tip "><p>博主的电脑显存是8G，所以选择第一个模型</p></div><p><img src="https://lambda-image-1.pages.dev/20260308141811309.webp" alt="image-20260308133339098"></p><p>将下载后的模型和刚刚下载的<code>exe</code>文件放在同一目录下</p><p><img src="https://lambda-image-1.pages.dev/20260308141811310.webp" alt="image-20260308133450008"></p><p>打开<code>exe</code>文件，然后下载对应的<code>llama</code></p><div class="tip "><p>博主的为N卡，所以选择图中所框选的版本</p></div><p><img src="https://lambda-image-1.pages.dev/20260308141811311.webp" alt="image-20260308133633833"></p><p>配置完成后，在启动页面，点击性能测试</p><p><img src="https://lambda-image-1.pages.dev/20260308141811312.webp" alt="image-20260308133723580"></p><p>若运行结果是这样，则安装完成</p><p><img src="https://lambda-image-1.pages.dev/20260308141811313.webp" alt="image-20260308133813269"></p><p>若运行结果是这样，则需要调整参数</p><p><img src="https://lambda-image-1.pages.dev/20260308141811314.webp" alt="image-20260308133940742"></p><p>点击<code>高级设置</code>配置对应的参数</p><div class="tip "><p>可以将刚刚的错误信息发送给AI，让AI来进行调整，博主这里的设置仅用来参考</p></div><h2 id="开始翻译">开始翻译</h2><p><img src="https://lambda-image-1.pages.dev/20260308141811315.webp" alt="image-20260308140257870"></p><p>首先启动<code>Sakura</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811316.webp" alt="image-20260308140351633"></p><p>然后启动<code>manga-translator-ui</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811317.webp" alt="image-20260308140421522"></p><p>翻译器选择<code>Sakura</code>,然后<code>Sakura API地址</code>填写<code>http://127.0.0.1:8080/v1</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811318.webp" alt="image-20260308140514962"></p><p>添加你想要翻译的文件/文件夹</p><div class="tip "><p>文件夹内放入你想要翻译的漫画图片</p></div><p><img src="https://lambda-image-1.pages.dev/20260308141811319.webp" alt="image-20260308141026640"></p><p>添加好要翻译的文件后，设置输出目录，然后点击开始翻译即可</p><p><img src="https://lambda-image-1.pages.dev/20260308141811320.webp" alt="image-20260308141135235"></p><p>翻译完成后的情况</p><p><img src="https://lambda-image-1.pages.dev/20260308141811321.webp" alt="image-20260308141224252"></p><p>若要对翻译后的内容进行调整，则选择<code>编辑原图</code>，并且点击<code>显示优化蒙层</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811322.webp" alt="image-20260308141337280"></p><p>点击<code>可编辑译文</code>修改翻译后的文本</p><p><img src="https://lambda-image-1.pages.dev/20260308141811323.webp" alt="image-20260308141520297"></p><p>使用<code>橡皮擦</code>擦除蒙层，并且删除对应翻译后的文本，显示图片原本的内容</p><p><img src="https://lambda-image-1.pages.dev/20260308141811324.webp" alt="image-20260308141658720"></p><p>修改完成后点击<code>保存JSON</code>和<code>导出图片</code></p><h2 id="补充">补充</h2><p>如果嫌以上步骤麻烦的话，可以使用<code>网易有道翻译</code>来进行截图翻译</p><p><img src="https://lambda-image-1.pages.dev/20260308143218262.webp" alt="image-20260308142537573"></p><div class="tip warning"><p>使用这个翻译出来的质量非常差</p></div><p><img src="https://lambda-image-1.pages.dev/20260308143218263.webp" alt="image-20260308142842388"></p><p>打开<code>有道词典</code>，选择<code>设置</code></p><p><img src="https://lambda-image-1.pages.dev/20260308143218264.webp" alt="image-20260308142921345"></p><p>设置截图翻译的快捷键</p><p><img src="https://lambda-image-1.pages.dev/20260308143218265.webp" alt="image-20260308143039830"></p><p>翻译后的内容</p><div class="tip bolt"><p>如果嫌麻烦，但是又可以接受这个的话，可以试一试</p></div>]]></content>
+    <content type="html"><![CDATA[<h2 id="安装manga-translator-ui">安装manga-translator-ui</h2><p>网页地址<a href="https://github.com/hgmzhn/manga-translator-ui">manga-translator-ui</a></p><p><img src="https://lambda-image-1.pages.dev/20260308125141716.webp" alt="20260308125141716.webp"></p><p>进入网页后，按照快速开始的安装方式，使用<code>安装脚本</code>安装即可</p><p><img src="https://lambda-image-1.pages.dev/20260308141811301.webp" alt="image-20260308131314154"></p><div class="tip "><p>按照其教程安装即可</p></div><p>在安装完成后点击<code>步骤2-启动Qt界面.bat</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811302.webp" alt="image-20260308131918265"></p><p>之后选择对应的翻译器</p><p><img src="https://lambda-image-1.pages.dev/20260308141811303.webp" alt="image-20260308131959482"></p><div class="tip "><p>博主这里是穷比，所以使用Sakura</p></div><h2 id="使用SakuraLLM进行翻译">使用SakuraLLM进行翻译</h2><h3 id="安装SakuraLLM">安装SakuraLLM</h3><p>网页地址<a href="https://github.com/SakuraLLM/SakuraLLM">SakuraLLM</a></p><p><img src="https://lambda-image-1.pages.dev/20260308132246594.webp" alt="20260308132246594.webp"></p><p>根据Wiki上的教程进行安装</p><p><img src="https://lambda-image-1.pages.dev/20260308141811304.webp" alt="image-20260308132345927"></p><p>根据自己的情况选择</p><p><img src="https://lambda-image-1.pages.dev/20260308141811305.webp" alt="image-20260308132624157"></p><div class="tip "><p>博主这里选择使用Sakura启动器GUI</p></div><p>网页地址<a href="https://github.com/PiDanShouRouZhouXD/Sakura_Launcher_GUI">Sakura_Launcher_GUI</a></p><p><img src="https://lambda-image-1.pages.dev/20260308141811306.webp" alt="image-20260308132742372"></p><p>点击<code>Releases</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811307.webp" alt="image-20260308132907358"></p><p>下载对应的<code>exe</code>文件即可</p><p><img src="https://lambda-image-1.pages.dev/20260308141811308.webp" alt="image-20260308133026180"></p><p>回到SakuraLLM页面，往下翻找到<code>显卡需求与显存需求</code>页面,然后根据自己的电脑硬件选择对应的模型</p><div class="tip "><p>博主的电脑显存是8G，所以选择第一个模型</p></div><p><img src="https://lambda-image-1.pages.dev/20260308141811309.webp" alt="image-20260308133339098"></p><p>将下载后的模型和刚刚下载的<code>exe</code>文件放在同一目录下</p><p><img src="https://lambda-image-1.pages.dev/20260308141811310.webp" alt="image-20260308133450008"></p><p>打开<code>exe</code>文件，然后下载对应的<code>llama</code></p><div class="tip "><p>博主的为N卡，所以选择图中所框选的版本</p></div><p><img src="https://lambda-image-1.pages.dev/20260308141811311.webp" alt="image-20260308133633833"></p><p>配置完成后，在启动页面，点击性能测试</p><p><img src="https://lambda-image-1.pages.dev/20260308141811312.webp" alt="image-20260308133723580"></p><p>若运行结果是这样，则安装完成</p><p><img src="https://lambda-image-1.pages.dev/20260308141811313.webp" alt="image-20260308133813269"></p><p>若运行结果是这样，则需要调整参数</p><p><img src="https://lambda-image-1.pages.dev/20260308141811314.webp" alt="image-20260308133940742"></p><p>点击<code>高级设置</code>配置对应的参数</p><div class="tip "><p>可以将刚刚的错误信息发送给AI，让AI来进行调整，博主这里的设置仅用来参考</p></div><h3 id="开始翻译">开始翻译</h3><p><img src="https://lambda-image-1.pages.dev/20260308141811315.webp" alt="image-20260308140257870"></p><p>首先启动<code>Sakura</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811316.webp" alt="image-20260308140351633"></p><p>然后启动<code>manga-translator-ui</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811317.webp" alt="image-20260308140421522"></p><p>翻译器选择<code>Sakura</code>,然后<code>Sakura API地址</code>填写<code>http://127.0.0.1:8080/v1</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811318.webp" alt="image-20260308140514962"></p><p>添加你想要翻译的文件/文件夹</p><div class="tip "><p>文件夹内放入你想要翻译的漫画图片</p></div><p><img src="https://lambda-image-1.pages.dev/20260308141811319.webp" alt="image-20260308141026640"></p><p>添加好要翻译的文件后，设置输出目录，然后点击开始翻译即可</p><p><img src="https://lambda-image-1.pages.dev/20260308141811320.webp" alt="image-20260308141135235"></p><p>翻译完成后的情况</p><p><img src="https://lambda-image-1.pages.dev/20260308141811321.webp" alt="image-20260308141224252"></p><p>若要对翻译后的内容进行调整，则选择<code>编辑原图</code>，并且点击<code>显示优化蒙层</code></p><p><img src="https://lambda-image-1.pages.dev/20260308141811322.webp" alt="image-20260308141337280"></p><p>点击<code>可编辑译文</code>修改翻译后的文本</p><p><img src="https://lambda-image-1.pages.dev/20260308141811323.webp" alt="image-20260308141520297"></p><p>使用<code>橡皮擦</code>擦除蒙层，并且删除对应翻译后的文本，显示图片原本的内容</p><p><img src="https://lambda-image-1.pages.dev/20260308141811324.webp" alt="image-20260308141658720"></p><p>修改完成后点击<code>保存JSON</code>和<code>导出图片</code></p><h2 id="使用DeepSeek进行翻译-推荐">使用DeepSeek进行翻译(推荐)</h2><h3 id="获取DeepSeek秘钥">获取DeepSeek秘钥</h3><p>进入<a href="https://platform.deepseek.com/">deepseek开放平台</a></p><p><img src="https://lambda-image-1.pages.dev/20260309005214485.webp" alt="image-20260309005110675"></p><p>购买余额后创建<code>key</code></p><div class="tip "><p>余额买10元的就够了</p></div><h2 id="补充">补充</h2><p>如果嫌以上步骤麻烦的话，可以使用<code>网易有道翻译</code>来进行截图翻译</p><p><img src="https://lambda-image-1.pages.dev/20260308143218262.webp" alt="image-20260308142537573"></p><div class="tip warning"><p>使用这个翻译出来的质量非常差</p></div><p><img src="https://lambda-image-1.pages.dev/20260308143218263.webp" alt="image-20260308142842388"></p><p>打开<code>有道词典</code>，选择<code>设置</code></p><p><img src="https://lambda-image-1.pages.dev/20260308143218264.webp" alt="image-20260308142921345"></p><p>设置截图翻译的快捷键</p><p><img src="https://lambda-image-1.pages.dev/20260308143218265.webp" alt="image-20260308143039830"></p><p>翻译后的内容</p><div class="tip bolt"><p>如果嫌麻烦，但是又可以接受这个的话，可以试一试</p></div>]]></content>
     
     
     <summary type="html">使用manga-translator-ui和SakuraLLM对漫画进行翻译的教程</summary>
@@ -186,9 +186,9 @@
     <category term="开发环境搭建" scheme="https://lambda-hk416.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
     
-    <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
-    
     <category term="Notebook" scheme="https://lambda-hk416.github.io/tags/Notebook/"/>
+    
+    <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
     
   </entry>
   
@@ -217,11 +217,11 @@
     <category term="开发环境搭建" scheme="https://lambda-hk416.github.io/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
     
     
+    <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
+    
     <category term="Anaconda" scheme="https://lambda-hk416.github.io/tags/Anaconda/"/>
     
     <category term="pip" scheme="https://lambda-hk416.github.io/tags/pip/"/>
-    
-    <category term="Python" scheme="https://lambda-hk416.github.io/tags/Python/"/>
     
   </entry>
   
@@ -370,9 +370,9 @@
     
     <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
-    <category term="远程开发" scheme="https://lambda-hk416.github.io/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
-    
     <category term="C/C++" scheme="https://lambda-hk416.github.io/tags/C-C/"/>
+    
+    <category term="远程开发" scheme="https://lambda-hk416.github.io/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
     
     <category term="系统调用" scheme="https://lambda-hk416.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8/"/>
     
@@ -439,9 +439,9 @@
     
     <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
-    <category term="远程开发" scheme="https://lambda-hk416.github.io/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
-    
     <category term="C/C++" scheme="https://lambda-hk416.github.io/tags/C-C/"/>
+    
+    <category term="远程开发" scheme="https://lambda-hk416.github.io/tags/%E8%BF%9C%E7%A8%8B%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
@@ -537,11 +537,11 @@
     <category term="Linux平台开发" scheme="https://lambda-hk416.github.io/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
     
     
-    <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Linux" scheme="https://lambda-hk416.github.io/tags/Linux/"/>
     
     <category term="Docker" scheme="https://lambda-hk416.github.io/tags/Docker/"/>
+    
+    <category term="教程" scheme="https://lambda-hk416.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
