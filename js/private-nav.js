@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){var e=document.getElementById("private-entry");e&&e.addEventListener("click",(function(e){e.preventDefault();var t=prompt("请输入私有专区密码：");"LambdaHK416"===t?(localStorage.setItem("private_access","1"),window.location.href="/private/"):null!==t&&alert("密码错误！")}))}));
