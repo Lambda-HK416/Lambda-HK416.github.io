@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/life/games/index.html</loc>
+    <loc>https://lambda-hk416.github.io/personal/bb/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -362,7 +362,7 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/personal/bb/index.html</loc>
+    <loc>https://lambda-hk416.github.io/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -380,7 +380,7 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/site/census/index.html</loc>
+    <loc>https://lambda-hk416.github.io/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -416,6 +416,20 @@
 
   
   <url>
+    <loc>https://lambda-hk416.github.io/tags/Markdown/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lambda-hk416.github.io/tags/Linux/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -437,34 +451,6 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/tags/Markdown/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lambda-hk416.github.io/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lambda-hk416.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lambda-hk416.github.io/tags/VMware/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://lambda-hk416.github.io/tags/Java/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -480,6 +466,20 @@
   
   <url>
     <loc>https://lambda-hk416.github.io/tags/SpringBoot/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/tags/VMware/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -570,14 +570,14 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/</loc>
+    <loc>https://lambda-hk416.github.io/tags/Notebook/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/tags/Notebook/</loc>
+    <loc>https://lambda-hk416.github.io/tags/%E5%8A%A0%E5%AF%86%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -621,13 +621,6 @@
 
   
   <url>
-    <loc>https://lambda-hk416.github.io/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://lambda-hk416.github.io/categories/%E6%BC%94%E7%A4%BA/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -635,14 +628,7 @@
   </url>
   
   <url>
-    <loc>https://lambda-hk416.github.io/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2026-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://lambda-hk416.github.io/categories/%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
+    <loc>https://lambda-hk416.github.io/categories/Linux%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -656,7 +642,21 @@
   </url>
   
   <url>
+    <loc>https://lambda-hk416.github.io/categories/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://lambda-hk416.github.io/categories/%E6%B8%B8%E6%88%8F/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://lambda-hk416.github.io/categories/%E6%9C%BA%E5%99%A8%E4%BA%BA/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
